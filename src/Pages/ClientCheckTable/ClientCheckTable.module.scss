@@ -1,0 +1,38 @@
+.table{
+  display: flex;
+  user-select: none;
+  max-width: 35.05vw;
+  background-color: #61dafb;
+}
+
+.column{
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cell{
+  height: 2rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  flex-grow: 1;
+  &:hover{
+    background: #61dafb;
+  }
+}
+
+.selected{
+  background: #eeeeee;
+}
+
+.mySelected{
+  background: #ff9999;
+}
+
+.blockCell{
+  background: chocolate;
+}

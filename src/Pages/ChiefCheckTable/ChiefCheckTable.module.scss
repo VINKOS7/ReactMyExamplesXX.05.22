@@ -1,0 +1,30 @@
+.table{
+  display: flex;
+  user-select: none;
+  background-color: #61dafb;
+  max-width: 35.05vw;
+}
+
+.column{
+  width: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cell{
+  height: 2rem;
+  width: 4rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+  flex-grow: 1;
+  &:hover{
+    background: #61dafb;
+  }
+}
+
+.selected{
+  background: #eeeeee;
+}

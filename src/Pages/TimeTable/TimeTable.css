@@ -1,0 +1,17 @@
+.MyTable{
+    background: rgb(100, 96, 165);
+}
+
+thead{
+    border-bottom: 2px black;
+}
+
+.cell-input{
+    max-width: 6vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+table{
+    margin: auto;
+}
